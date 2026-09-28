@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 220px; padding: 15px; font-family: sans-serif; text-align: center; background: #0f172a; color: white; }
+    button { background: #3b82f6; color: white; border: none; padding: 10px 12px; margin: 5px 0; border-radius: 8px; cursor: pointer; font-weight: bold; width: 100%; }
+    button.secondary { background: #334155; }
+    button:hover { filter: brightness(1.1); }
+    button:disabled { opacity: .6; cursor: wait; }
+    h2 { font-size: 16px; margin-bottom: 15px; }
+    #status { font-size: 11px; line-height: 1.4; color: #cbd5e1; }
+    #status[data-state="error"] { color: #fca5a5; }
+  </style>
+</head>
+<body>
+  <h2>Smart PDV PRO</h2>
+  <button id="open-system" type="button">Abrir Sistema</button>
+  <button id="sell" type="button">Vender</button>
+  <button id="project-folder" class="secondary" type="button">Abrir Pasta do Projeto</button>
+  <p id="status">Escolha uma opção.</p>
+  <script src="popup.js"></script>
+</body>
+</html>

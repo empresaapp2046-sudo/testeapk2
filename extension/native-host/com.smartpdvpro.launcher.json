@@ -1,0 +1,7 @@
+{
+  "name": "com.smartpdvpro.launcher",
+  "description": "Inicia o Smart PDV PRO pelo iniciar.bat da pasta pai",
+  "path": "HOST_PATH\\host.cmd",
+  "type": "stdio",
+  "allowed_origins": ["chrome-extension://EXTENSION_ID/"]
+}
