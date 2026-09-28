@@ -1,0 +1,15 @@
+{
+  "appId": "com.meuapp.tanstackstartts",
+  "appName": "tanstack start ts",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "backgroundColor": "#0f1d16",
+      "launchShowDuration": 800
+    }
+  }
+}
